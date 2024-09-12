@@ -131,4 +131,49 @@ body{
         cursor: pointer;
         border: none;
     }
-   
+    #h1-responsif{
+        display: none;
+    }
+
+
+@media (max-width: 1200px) {
+        #h1-non-responsif{
+                display: none;
+        }
+        #h1-responsif{
+                display: block;
+                text-align: center;
+                margin-bottom: 10px;
+        }
+        .wrapper{
+                top: 60%;
+                display: flex;
+                flex-direction: column-reverse;
+                width: 80vh;
+                /* min-width: 500px;      */
+        }
+        .result #flex-image-buttons{
+                flex-direction: column;
+                justify-content: space-around;
+                text-align: center;
+               
+        }
+        .result #download-button{
+                
+                width: 100%;
+        }
+}
+
+@media (max-width: 700px) {
+        .wrapper{
+                top: 52%;
+                width: 55vh;
+                min-width: 500px;     
+        }
+}
+@media (max-width: 500px){
+        .wrapper{
+                width: auto;
+        }
+}
+
