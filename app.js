@@ -90,4 +90,4 @@ downloadButton.onclick = ()=>{
     
 };
 
-resetFilter()
+resetFilter();
