@@ -1,5 +1,5 @@
 # basic-image-editor
-![](screenshots/initialState.png)
+![](screenshots/initalState.png)
 
 ![](screenshots/state.png)
 
